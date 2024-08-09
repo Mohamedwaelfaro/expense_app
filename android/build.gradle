@@ -1,7 +1,30 @@
+buildscript {
+    ext {
+        kotlin_version = '1.7.20' // Define the Kotlin version here
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // Add other necessary dependencies for your project here
+    }
+}
+
 allprojects {
     repositories {
         google()
         mavenCentral()
+    }
+
+    // Force all modules to use the specified Kotlin version
+    configurations.all {
+        resolutionStrategy {
+            force "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+        }
     }
 }
 
