@@ -2,7 +2,8 @@
 
 Welcome to the Personal Expense Tracker app! This Flutter application allows users to manage their personal expenses, track transactions, and view monthly and yearly summaries. The app also integrates with Google Maps API to save and list locations associated with expenses.
 
-![App Screenshot](path_to_screenshot.png)
+![App Screenshot](![WhatsApp Image 2024-08-09 at 09 07 32_4add5402](https://github.com/user-attachments/assets/1659b6f0-5426-488c-a335-5d8beae0d654)
+)
 
 ## Features
 
