@@ -1,16 +1,34 @@
-# expense_app
+# Personal Expense Tracker
 
-A new Flutter project.
+Welcome to the Personal Expense Tracker app! This Flutter application allows users to manage their personal expenses, track transactions, and view monthly and yearly summaries. The app also integrates with Google Maps API to save and list locations associated with expenses.
+
+![App Screenshot](![WhatsApp Image 2024-08-09 at 09 07 32_4add5402](https://github.com/user-attachments/assets/1659b6f0-5426-488c-a335-5d8beae0d654)
+)
+
+## Features
+
+- **Transaction Management**: Add, update, and delete transactions.
+- **Summary Views**: Navigate between monthly and yearly expense summaries.
+- **Google Maps Integration**: Save a location for each transaction and view the list of saved locations.
+- **User Roles**: Admin and user roles with different functionalities.
+- **Interactive and Animated UI**: The app features a colorful, interactive, and scrollable design with animations.
+
+## Screenshots
+
+Add some screenshots here to showcase the app's design and features.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Dart SDK](https://dart.dev/get-dart)
+- Android Studio or Visual Studio Code (optional for development)
+- A Google Maps API key
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Mohamedwaelfaro/expense_app.git
+   cd expense_app
